@@ -1,0 +1,27 @@
+
+#formulario {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+
+}
+
+#formulario_pessoal{
+    display: flex;
+    flex-direction: column;
+}
+
+#address {
+    display: flex;
+    flex-direction: column;
+}
+
+#tipo_sanguineo_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.estado_regiao {
+    background-color: darkgrey;
+    color: white;
+}
