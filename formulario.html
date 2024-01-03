@@ -34,8 +34,6 @@
                 <section id="formulario_pessoal">
                     <label for="cpf">CPF</label>
                     <input type="number" id="cpf">
-                    <label for="cep">CEP</label>
-                    <input type="number" id="cep">
                     <label for="gender">Gênero</label>
                     <select name="" id="gender">
                         <option value="masculino">Masculino</option>
@@ -50,9 +48,11 @@
                     <label for="email">Email</label>
                     <input type="email" placeholder="digite seu e-mail." id="email">
                     <label for="fone">Telefone</label>
-                    <input type="tel" placeholder="digite seu telefone">
+                    <input type="tel" placeholder="(DD) - 1111-11111" id="fone">
                 </section>
                 <section id="address">
+                    <label for="cep">CEP</label>
+                    <input type="number" id="cep">
                     <label for="uf">Estado</label>
                     <select name="" id="uf">
                         <option value="" class="estado_regiao">Região Norte</option>
@@ -91,20 +91,20 @@
                     <label for="city">Cidade</label>
                     <input type="text" placeholder="digite o nome de sua cidade" id="city">
                     <section id="doar_orgao">
-                        <p>Quer ser doador de órgão?</p>
+                        <p class="question">Quer ser doador de órgão?</p>
                         <input type="radio" id="sim" value="sim" name="doar_orgao">
                         <label for="sim"> Sim</label>
                         <input type="radio" id="nao" value="nao" name="doar_orgao">
                         <label for="nao">Não</label>
                         </select>
                     </section>
-                        <section id="doar_sangue">
-                            <p>Quer ser doador de sangue?</p>
-                            <input type="radio" id="sim" value="sim" name="doar_sangue">
-                            <label for="sim">Sim</label>
-                            <input type="radio" id="nao" value="nao" name="doar_sangue">
-                            <label for="nao">Não</label>
-                        </section>
+                    <section id="doar_sangue">
+                        <p class="question">Quer ser doador de sangue?</p>
+                        <input type="radio" id="sim" value="sim" name="doar_sangue">
+                        <label for="sim">Sim</label>
+                        <input type="radio" id="nao" value="nao" name="doar_sangue">
+                        <label for="nao">Não</label>
+                    </section>
                     <section id="tipo_sanguineo_section">
                         <label for="tipo_sanguineo">Qual o seu tipo sanguíneo?</label>
                         <select name="tipo_sanguineo" id="tipo_sanguineo">
@@ -119,10 +119,9 @@
                             <option value="ab">AB</option>
                         </select>
                     </section>
-
                 </section>
+                <input type="submit">
             </form>
-            <button form="formulario">Ser doardo</button>
         </section>
     </article>
 </body>
