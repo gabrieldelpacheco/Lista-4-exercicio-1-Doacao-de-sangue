@@ -1,0 +1,18 @@
+#contatos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#constatos_title {
+    display: flex;
+}
+
+#contatos_ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+}

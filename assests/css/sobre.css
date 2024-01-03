@@ -1,3 +1,11 @@
 .img_paragrafo{
     width: 32px;
 }
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}

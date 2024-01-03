@@ -5,11 +5,12 @@ header {
     width: 100%;
     background-color: aquamarine;
     padding: 1em;
+    box-shadow: 6px 9px 18px rgb(41, 37, 37);
 }
 
 #navbar_li {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 

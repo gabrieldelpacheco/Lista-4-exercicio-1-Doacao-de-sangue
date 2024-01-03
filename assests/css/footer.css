@@ -1,0 +1,30 @@
+#roddape {
+    background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+}
+
+#info_dev {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(175, 238, 217);
+}
+
+#copyright {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.rede_social_li {
+    list-style: none;
+}
+
+.rede_social-img {
+    width: 32px;
+}
+#copyright_img {
+    width: 20px;
+}
