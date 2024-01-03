@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assests/css/formulario.css">
     <link rel="stylesheet" href="assests/css/reset.css">
+    <link rel="stylesheet" href="assests/css/eventos.css">
+    <link rel="stylesheet" href="assests/css/header.css">
+    <link rel="stylesheet" href="assests/css/footer.css">
     <title>FORMULARIO</title>
 </head>
 
@@ -19,9 +22,9 @@
             </ul>
         </nav>
     </header>
-    <article>
-        <h2>Quer se um doador e salvar vidas?</h2>
-        <p>&nbsp; A sua generosidade pode salvar vidas! Ao preencher este formulário para doação de sangue, você está
+    <article id="doacao">
+        <h2 id="title_doacao">Quer se um doador e salvar vidas?</h2>
+        <p id="paragrafo_doacao">&nbsp; A sua generosidade pode salvar vidas! Ao preencher este formulário para doação de sangue, você está
             dando um passo significativo em direção a um ato humanitário que faz toda a diferença. A doação de sangue é
             crucial para o bem-estar de muitas pessoas que enfrentam situações de emergência, cirurgias, tratamentos
             contra o câncer e outras condições médicas. Cada doação conta, e o seu gesto solidário pode ser a esperança
@@ -92,17 +95,17 @@
                     <input type="text" placeholder="digite o nome de sua cidade" id="city">
                     <section id="doar_orgao">
                         <p class="question">Quer ser doador de órgão?</p>
-                        <input type="radio" id="sim" value="sim" name="doar_orgao">
+                        <inputtype="radio" id="sim" value="sim" name="doar_orgao">
                         <label for="sim"> Sim</label>
-                        <input type="radio" id="nao" value="nao" name="doar_orgao">
+                        <inputtype="radio" id="nao" value="nao" name="doar_orgao">
                         <label for="nao">Não</label>
                         </select>
                     </section>
                     <section id="doar_sangue">
                         <p class="question">Quer ser doador de sangue?</p>
-                        <input type="radio" id="sim" value="sim" name="doar_sangue">
+                        <inputtype="radio" id="sim" value="sim" name="doar_sangue">
                         <label for="sim">Sim</label>
-                        <input type="radio" id="nao" value="nao" name="doar_sangue">
+                        <inputtype="radio" id="nao" value="nao" name="doar_sangue">
                         <label for="nao">Não</label>
                     </section>
                     <section id="tipo_sanguineo_section">
