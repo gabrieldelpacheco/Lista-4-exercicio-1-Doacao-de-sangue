@@ -1,0 +1,11 @@
+#navbar_li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar_li--li {
+    list-style: none;
+    padding-right: .6em;
+
+}

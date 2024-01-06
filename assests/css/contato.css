@@ -1,16 +1,17 @@
-#contatos {
+article {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    padding-top: 2em;
 }
 
-#constatos_title {
-    display: flex;
+#contatos_title {
+    text-align: center;
+    padding: 1em 0;
 }
 
 #contatos_ul {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
 li {

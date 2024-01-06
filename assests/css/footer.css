@@ -1,25 +1,33 @@
-#roddape {
-    background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 10px;
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 #info_dev {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1em;
     background-color: rgb(175, 238, 217);
 }
 
-#copyright {
-    background-color: black;
-    color: white;
+#info_dev--paragrafo {
+    font-weight: bold;
+    color: rgba(110, 73, 73, 0.808);
+}
+
+#rede_social_dev--paragrafo {
     text-align: center;
 }
 
-.rede_social_li {
+#rede_social_dev--ul {
+    display: flex;
+}
+
+.rede_social--li {
     list-style: none;
+    padding: .3em;
 }
 
 .rede_social-img {
@@ -27,4 +35,10 @@
 }
 #copyright_img {
     width: 20px;
+}
+
+#copyright {
+    background-color: black;
+    color: white;
+    text-align: center;
 }

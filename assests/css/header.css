@@ -4,18 +4,6 @@ header {
     align-items: center;
     width: 100%;
     background-color: aquamarine;
-    padding: 1em;
+    padding: .7em;
     box-shadow: 6px 9px 18px rgb(41, 37, 37);
-}
-
-#navbar_li {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.navbar_li--li {
-    list-style: none;
-    padding-right: .5em;
-
 }
