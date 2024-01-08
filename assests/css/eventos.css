@@ -1,8 +1,10 @@
-#title_doacao {
-    padding: 1em 0 .4em;
-}
 
-#paragrafo_doacao {
+#important {
     display: flex;
+    padding-top: 2em;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: column;
     text-align: justify;
 }
+
