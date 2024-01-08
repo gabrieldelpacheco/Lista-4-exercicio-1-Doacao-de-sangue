@@ -1,3 +1,7 @@
+article {
+    display: flex;
+    justify-content: center;
+}
 
 #important {
     display: flex;
@@ -6,5 +10,21 @@
     width: 50%;
     flex-direction: column;
     text-align: justify;
+    font-size: 1.2em;
 }
 
+.important_subtitle {
+    padding: .6em 0;
+}
+
+#important_formulario--link:hover {
+    border: 2px blue solid;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    color: red;
+}
+
+#important_formulario--link:visited {
+    color: black;
+    font-weight: 600;
+}

@@ -1,9 +1,17 @@
+article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+}
+
 .img_paragrafo{
     width: 32px;
 }
 
 h1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 p {
