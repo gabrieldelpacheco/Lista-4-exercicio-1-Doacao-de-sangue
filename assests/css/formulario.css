@@ -1,3 +1,21 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#title_doacao {
+    padding: 1em;
+}
+
+#paragrafo_doacao {
+    text-align: justify;
+}
+
 #form {
     display: flex;
     justify-content: center;
@@ -39,5 +57,10 @@ label {
 .question {
     padding-top: .8em;
     padding-bottom: .3em;
+}
+
+#enviar {
+    padding: .2em;
+    margin-top: 1em;
 }
 

@@ -1,3 +1,4 @@
+
 article {
     display: flex;
     justify-content: center;
@@ -15,6 +16,10 @@ article {
 
 .important_subtitle {
     padding: .6em 0;
+}
+
+h3,h4 {
+    text-align: center;
 }
 
 #important_formulario--link:hover {

@@ -1,7 +1,9 @@
-article {
+main {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: center;
+}
+article {
+    padding: 1.3em 0;
     width: 50%;
 }
 
@@ -14,6 +16,11 @@ h1 {
     justify-content: center;
 }
 
-p {
+.paragrafo {
     text-align: justify;
+    padding-top: 1em;
+}
+
+#aviso {
+    padding-top: .5em;
 }
